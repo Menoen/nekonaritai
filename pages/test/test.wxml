@@ -1,0 +1,26 @@
+<view class="body-view">
+  <view class="margin20">开关</view>
+  <switch checked/>
+
+  <view class="margin20">滑动选择器</view>
+  <view class="body-view">
+    <slider show-value/>
+  </view>
+
+  <view class="margin20">省市区选择器</view>
+  <view class="section">
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+      <view class="picker">
+        当前选择：{{region[0]}}，{{region[1]}}，{{region[2]}}
+      </view>
+    </picker>
+  </view>
+
+  <view class="margin20">导航</view>
+  <view class="btn-area">
+    <navigator url="../index/index" hover-class="navigator-hover">跳转到首页</navigator>
+    <navigator url="../trash/trash" hover-class="navigator-hover">跳转到垃圾分类</navigator>
+    <navigator url="../map/map" hover-class="navigator-hover">跳转到地图</navigator>
+  </view>
+
+</view>
