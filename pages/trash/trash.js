@@ -5,14 +5,8 @@ Page({
   },
   btnclick: function(){
     var localData = require("../../data/searchInfo.js")
-    console.log(localData)
-  //  wx.request({
-  //    url: '../testJson/searchInfo.json',
-  //    success:function(res){
-       
-  //      console.log(localData)
-  //      this.data.trashType = localData.value;
-  //    }
-  //  })
+    console.log("请求内容：" + localData.testJsonList)
+    console.log("搜索内容：" + searchValue)
+    
   }
 })
