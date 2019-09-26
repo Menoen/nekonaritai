@@ -4,6 +4,7 @@
     "pages/logs/logs",
     "pages/map/map",
     "pages/trash/trash",
+    "pages/UI/UI",
     "pages/test/test"
   ],
   "window": {
@@ -33,6 +34,10 @@
       {
         "pagePath": "pages/test/test",
         "text": "测试页面"
+      },
+      {
+        "pagePath": "pages/UI/UI",
+        "text":"UI"
       }
     ]
   },

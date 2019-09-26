@@ -1,0 +1,64 @@
+.body {
+  background-color: #eee;
+}
+.banner {
+  height: 130rpx;
+  background-color: white;
+  padding: 50rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.usr-img {
+  height: 130rpx;
+  width: 130rpx;
+  border-radius: 10rpx;
+}
+.usr-info {
+  margin-left: 50rpx;
+  display: inline-block;
+  vertical-align: top;
+
+}
+.usr-city {
+  color: #666;
+}
+.use-nm {
+  font-size: 50rpx;
+}
+
+
+.list {
+  padding: 30rpx 50rpx;
+  background-color: white;
+  margin-top: 20rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.icon-img {
+  width: 40rpx;
+  height: 40rpx;
+}
+.list-text {
+  margin-left: 40rpx;
+  font-size: 40rpx;
+}
+.list-li {
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+.list-li-noborder {
+  border: none;
+}
+
+.botton {
+  display: flex;
+  height: 140rpx;
+  margin: 60rpx 0 0 0;
+  background-color: rgb(247, 247, 247);
+}
+.bottom-item {
+  flex: 1;
+  text-align: center;
+}
+.bottom-img {
+  height: 75rpx;
+  width: 75rpx;
+}

@@ -71,5 +71,10 @@ Page({
     wx.navigateTo({
       url: '../test/test',
     })
+  },
+  clickUI: function(){
+    wx.navigateTo({
+      url: '../UI/UI',
+    })
   }
 })

@@ -1,0 +1,55 @@
+<view class="body">
+  <view class="banner">
+    <image bindtap="bindViewTap" class="usr-img" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <view class="usr-info">
+      <text class="use-nm">{{userInfo.nickName}}</text>
+      <view class="usr-dtl">
+        <text class="usr-city">address: {{userInfo.city}},{{userInfo.province}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="list">
+    <image src="../img/pay.png" class="icon-img"></image>
+    <text class="list-text">支付</text>
+  </view>
+  <view class="list">
+    <view class="list-li">
+      <image src="../img/save.png" class="icon-img"></image>
+      <text class="list-text">收藏</text>
+    </view>
+    <view class="list-li">
+      <image src="../img/album.png" class="icon-img"></image>
+      <text class="list-text">相册</text>
+    </view>
+    <view class="list-li">
+      <image src="../img/wallet.png" class="icon-img"></image>
+      <text class="list-text">卡包</text>
+    </view>
+    <view class="list-li list-li-noborder">
+      <image src="../img/emoji.png" class="icon-img"></image>
+      <text class="list-text">表情</text>
+    </view>
+  </view>
+  <view class="list">
+    <image src="../img/settings.png" class="icon-img"></image>
+    <text class="list-text">设置</text>
+  </view>
+  <view class="botton">
+    <view class="bottom-item">
+      <image src="../img/dialog.png" class="bottom-img"></image>
+      <view>啦啦</view>
+    </view>
+    <view class="bottom-item">
+      <image src="../img/contact.png" class="bottom-img"></image>
+      <view>通讯录</view>
+    </view>
+    <view class="bottom-item">
+      <image src="../img/pyq.png" class="bottom-img"></image>
+      <view>发现</view>
+    </view>
+    <view class="bottom-item">
+      <image src="../img/me-g.png" class="bottom-img"></image>
+      <view>我</view>
+    </view>
+  </view>
+</view>

@@ -19,4 +19,7 @@
   <view class="clickEntro">
     <button bindtap="clickTest">测试页面</button>
   </view>
+  <view class="clickEntro">
+    <button bindtap="clickUI">美工页面</button>
+  </view>
 </view>
